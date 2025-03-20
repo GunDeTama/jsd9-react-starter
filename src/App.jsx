@@ -1,9 +1,8 @@
-function App() {
+export default function App() {
   return (
-    <>
-     <h1>Hello, World</h1>
-    </>
+    <div className="flex p-6">
+      <h1 className="text-amber-500">React App Project Starter</h1>
+    </div>
   )
 }
 
-export default App
